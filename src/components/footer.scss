@@ -1,0 +1,245 @@
+footer{
+    background-color: #060606;
+    padding:30px 0 ;
+   
+}
+.footer_Section{
+    background-color: #151515;
+    @media (min-width:1024px){
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+}
+.footer_first_section{
+    padding: 15px;
+    @media (min-width:1024px){
+        width: 300px;
+    }
+}
+.about_Us{
+    margin-bottom: 20px;
+    .ABOUT_US{
+        border-bottom-width: 3px;
+        border-bottom: 2px solid #313131;
+        margin-bottom:30px ;
+        h3{
+            padding-bottom: 8px;
+            margin:0 ;
+            span{
+                color: #fff;
+                position: relative;
+                display: block;
+                text-transform: uppercase;
+                z-index: 3;
+                font-size: 14px;
+            }
+        }
+    }
+}
+.media_para{
+    margin-bottom: 20px;
+    p{
+        color:#e4e4e4;
+        font-family: "Libre Franklin", sans-serif;
+        @include cash(14px ,400);
+        line-height: 22px;
+        margin: 0;
+    }
+}
+.logos_sections{
+    display: flex;
+    .icons{
+        margin-top: 10px;
+        a{
+            .fa-brands{
+                border: 1px solid #e0e0e0;
+                font-size: 14px;
+                height: 28px;
+                width: 28px;
+                margin-bottom:0 ;
+                line-height: 26px;
+                border-radius: 50%;
+            }
+            .fa-facebook{
+                background-color: #0d47a1;
+                color: white;
+            }
+            .fa-twitter{
+               background-color: #40c4ff;
+               color: white;
+            }
+            .fa-square-instagram{
+               background-color: #4d7a9e;
+               color: white;
+            }
+            .fa-linkedin-in{
+                background-color: #0077b5;
+                color: white;
+            }
+            .fa-youtube{
+                background-color:red;
+                color: white;
+            }
+        }
+    }
+}
+
+.footer_two_sections{
+    @media (min-width:1024px){
+        display: flex;
+        width: 50%;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        display: flex;
+    }
+}
+.second_section{
+    padding: 15px;
+    .girl_section{
+        margin-bottom: 20px;
+        .livin_cost{
+            padding:  0 5px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+    }
+}
+.full_sec{
+    position: relative;
+    .online_image{
+        background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p4-1024x683.jpg");
+        width: 100%;
+        height: 282px;
+        display: inline-block;
+        vertical-align: top;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+        @media (min-width:1024px){
+            width: 272px;
+        }
+        @media (min-width: 601px) and (max-width: 1024px) {
+            width: 354px;
+        }
+    }
+}
+.online_para{
+    position: absolute;
+    padding: 20px;
+    top:175px;
+    @media (min-width:1024px){
+        top:150px;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        top:150px;
+    }
+    h3{
+        margin: 0;
+        a{
+            text-decoration: none;
+            @include cash(18px,600);
+            color:white;
+        }
+    }
+    .bg_date{
+        span{
+            color: white;
+            @include cash(12px,400);
+            margin-top: 6px;
+        }
+    }
+}
+.recent_article{
+    padding: 15px;
+}
+.trio_para{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    .bg_date{
+        span{
+            color: #888;
+            margin-top: 4px;
+            @include cash(12px,400);
+        }
+    }
+}
+.Recent_articles{
+    @media (min-width:1024px){
+        display: flex;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        display: flex;
+    }
+}
+.trio_link{
+    a{
+        text-decoration: none;
+        color: white;
+        @include cash(14px,600);
+        &:hover{
+            color: var(--color);
+        }
+    }
+}
+.copyright_section{
+    padding-top: 15px;
+    @media (min-width:1024px){
+        padding: 15px 0;
+    }
+}
+.Copy_right{
+    text-align: center;
+    @media (min-width:1024px){
+        padding: 10px;
+        margin-top: 5px;
+    }
+}
+.copyright{
+    color: #bbb;
+    @include cash(13px,400);
+    text-align:center;
+    font-family: "Libre Franklin", sans-serif;
+    a{
+        text-decoration: none;
+        color: var(--color);
+    }
+}
+.cr_section{
+    @media (min-width:1024px){
+        display: flex;
+        margin: 0 auto;
+        justify-content: space-evenly;
+    }
+}
+.cp_List{
+    padding: 10px;
+    margin-top: 5px;
+}
+.cp_underlist{
+    display: flex;
+    padding: 0;
+    margin-top: 0;
+    gap :10px;
+    list-style: none;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        padding-left: 147px ;
+    }
+
+    .cp_menu_list{
+        list-style: none;
+        margin-right: 30px;
+        a{
+            color: #bbb;
+            text-decoration: none;
+            font-family: "Libre Franklin", sans-serif;
+            @include cash(13px,400);
+            &:hover{
+                color: var(--color);
+            }
+        }
+        .home{
+            color:var(--color)
+        }
+    }
+}

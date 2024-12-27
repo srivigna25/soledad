@@ -1,0 +1,170 @@
+.sport_section{
+    padding-bottom: 40px;
+    .sport_sec{
+        display: flex;
+        flex-direction: column;
+        @media (min-width:1024px){
+            flex-direction: row;
+            max-width: 1200px;
+            margin:0 auto;
+        }
+    }
+}
+.sports_first_section{
+    padding: 15px;
+}
+
+.sports_inner_sec{
+    padding: 0 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.sports_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p3-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_three_sec{
+    @media (min-width: 601px) and (max-width: 1024px) {
+        display: flex;
+    }
+
+}
+.inner_section{
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 50%;
+    }
+}
+.sports_flex_sec{
+    padding-left: 20px;
+    .sports_para{
+        .link{
+            text-decoration: none;
+            @include cash(15px,600);
+            color:black;
+            &:hover{
+                color: var(--color);
+            }
+        }
+    }
+    .bg_date{
+        color: #888;
+        margin-top: 8px;
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+.sports_image_two{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p29-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_image_three{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p30-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_image_four{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p31-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_image_five{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p32-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_image_six{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p33-263x175.jpg");
+    width: 120px;
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 180px;
+    }
+}
+.sports_img{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p34-585x390.jpg");
+    width: 100%;
+    height: 235px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 251px;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 100%;
+        height: 500px;
+    }
+}
+.England_sports{
+    padding: 15px;
+}
+.England_sport{
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 100%;
+    }
+}
+.england_heading{
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: black;
+        @include cash(21px,600)
+    }
+}
+.England{
+    background-color: #f5f5f5;
+    padding: 20px;
+}

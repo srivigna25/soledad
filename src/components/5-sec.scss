@@ -1,0 +1,221 @@
+.Archaeologist{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        flex-direction: row;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+.archaeologist_image{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        flex-direction: row;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        flex-direction: row;
+    }
+}
+.russian_image{
+    padding: 15px;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 50%;
+    }
+}
+.russian-image{
+    padding:0 10px;
+    margin-bottom: 20px;
+}
+.joe-biden-image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p2-1024x642.jpg");
+    width: 100%;
+    height: 501px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+}
+.joe_biden_link{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.joe_heading{
+    h3{
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 21px;
+            font-weight: 600;
+            &:hover{
+                color: var(--color);
+            }
+        }
+    }
+}
+.joe_para{
+    p{
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+.Yellowstone_title{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.yellowstone_flex_section{
+    padding:15px ;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 50%;
+    }
+}
+.Yellowstone_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p8-585x390.jpg");
+    width: 100%;
+    height: 221px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+}
+.yellowstone_flex{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.Yellowstone_heading{
+    h3{
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            &:hover{
+                color: var(--color);
+            }
+        }
+    }
+}
+.facemask_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p23-585x390.jpg");
+    width: 100%;
+    height: 221px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+}
+.pz_sec{
+    padding: 15px;
+}
+.puzzle{
+    display: flex;
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+.puzzle_img{
+    width: 100%;
+}
+.link_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p24-263x175.jpg");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        width: 180px;
+        height: 120px;
+    }
+}
+.puzzle_content{
+    padding-left: 20px;
+}
+.puzzle_link{
+    a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 600;
+        color: black;
+        &:hover{
+            color:var(--color)
+        }
+    }
+}
+.PZ-sec{
+    @media (min-width: 601px) and (max-width: 1024px) {
+        display: flex;
+    }
+}
+.link2_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p25-263x175.jpg");   
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        width: 180px;
+        height: 120px;
+    }
+}
+.link3_image{
+    background-image:url("//soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p26-263x175.jpg");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        width: 180px;
+        height: 120px;
+    }
+}
+.link4_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p27-263x175.jpg");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        width: 180px;
+        height: 120px;
+    }
+}
+.link5_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p28-263x175.jpg");
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        width: 180px;
+        height: 120px;
+    }
+}
+
+.multipurpose{
+    padding: 10px 0 20px 0;
+}
+.Multi_purpose{
+    text-align: center;
+    @media (min-width:1024px){
+        width: 728px;
+        margin: 0 auto;
+    }
+}
+.multi_purpose_image{
+    max-width: 100%;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        max-width: 728px;
+    }
+}

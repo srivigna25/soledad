@@ -1,0 +1,20 @@
+@import './variables/txt.scss';
+@import './components/header.scss';
+@import './components/section.scss';
+@import './components/2-sec.scss';
+@import './components/3-sec.scss';
+@import './components/4-sec.scss';
+@import './components/5-sec.scss';
+@import './components/6-sec.scss';
+@import './components/footer.scss';
+@import './components/buttons.scss';
+
+
+body{
+  font-family : "Aleo", serif;
+  font-weight : 700;
+  font-style: normal;
+}
+*{
+    box-sizing: border-box;
+}

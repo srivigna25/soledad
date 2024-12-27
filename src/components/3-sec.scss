@@ -1,0 +1,111 @@
+.RETAILER{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        justify-content: center;
+        flex-direction: row;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}
+.Retailer_sec{
+    @media (min-width:1024px){
+        width: 50%;
+    }
+}
+.Better_sec{
+    @media (min-width: 601px) and (max-width: 1024px) {
+        display: flex;
+    }
+}
+.retailers{
+    padding:15px;
+    margin-bottom: 20px;
+}
+.girl_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p4-585x390.jpg");
+    height: 156px;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    @media (min-width:1024px){
+        height:300px;
+    }
+}
+
+.retailer_sec{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+.Fear_retailer{
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: 600;
+        &:hover{
+            color: var(--color);
+        }
+    }
+}
+.better_sec{
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.better{
+    display: flex;
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+    align-items: center;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 50%;
+        margin-right: 15px;
+    }
+}
+.study_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p16-263x175.jpg");
+    width: 65%;
+    height: 69px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 117px;
+    }
+}
+.better_paras_heading{
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: 600;
+    }
+}
+.coffee_image{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p17-263x175.jpg");
+    width: 78%;
+    height: 69px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 117px;
+    }
+}    
+.better_paras{
+    padding-right: 20px;
+    .bg_date{
+        color: #888;
+        margin-top: 8px;
+        font-family: "Libre Franklin", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+    }
+} 

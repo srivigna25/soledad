@@ -1,0 +1,380 @@
+
+.news_section{
+    padding: 15px 0 10px 0;
+    @media (min-width:1024px){
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .flex_section{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        @media (min-width:1024px){
+            flex-direction: row;
+        }
+    }
+}
+.heading{
+    .news_span{
+        span{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        a{
+            margin-left:20px;
+            color: var(--color);
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 700;
+            font-family: "Libre Franklin", sans-serif;
+            text-decoration: none;
+            .fa-arrow-right{
+                font-size: 12px;
+                margin-left: 5px;
+            }
+        }
+    }
+}
+.politics{
+    margin-bottom: 20px;
+}
+.first_sec{
+    padding: 15px;
+    margin-bottom: 20px;
+    @media (min-width:1024px){
+        width: 50%;
+        flex-direction: row;
+    }
+}
+.pcbg_image{
+    background-image: url(https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p1-768x432.jpg);
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center;
+    @media (min-width:1024px){
+        height: 268px;
+    }
+}
+.pcbg_content{
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.position{
+    background-color:white;
+    padding: 15px 0 0 0;
+}
+
+
+.pcbg_politics{
+    margin-bottom: 2px;
+    span{
+        color: var(--color);
+        a{
+            text-decoration: none;
+            span{
+                font-family: "Libre Franklin", sans-serif;
+                font-size: 12px;
+                font-weight: 400;
+            }
+        }
+    }
+}
+
+.Building{
+    max-width: 340px;
+    @media (min-width: 601px) and (max-width: 1024px) {
+        max-width: 100%;
+    }
+    h3{
+        margin: 0;
+    
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 24px;
+            font-weight: 600;
+            &:hover{
+                color: var(--color);
+               }
+        }
+    }
+
+}
+.bg_date{
+    margin-top: 6px;
+    span{
+        color: #888;
+        font-size: 12px;
+        font-weight: 400;
+        font-family: "Libre Franklin", sans-serif;
+    }
+}
+.first_section{
+    margin-bottom: 20px;
+    @media (min-width:1024px){
+        padding:0 10px ;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+       padding: 0 10px;
+    }
+}
+.pcbg_image2{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p4-585x390.jpg");
+    position: relative;
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width :1024px){
+        height: 115px;
+    }
+
+}
+.Fear_sec{
+    h3{
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 1.4em;
+            &:hover{
+                color: var(--color);
+               }
+        }
+    }
+}
+.pcbg_image3{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p5-585x390.jpg");
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width :1024px){
+        height: 115px;
+    }
+}
+.pcbg_image4{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p6-585x390.jpg");
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width :1024px){
+        height: 115px;
+    }
+}
+.three-sections{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        flex-direction: row;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        flex-direction: row;
+    }
+}
+.second_sec{
+    padding: 15px;
+    margin-bottom: 20px;
+    @media (min-width:1024px){
+        width: 50%;
+    }
+}
+.pcbg_image5{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p2-585x367.jpg");
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+}
+.pcbg_image6{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p3-585x390.jpg");
+    width: 100%;
+    height: 181px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+}
+.two_sections{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        flex-direction: row;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        flex-direction: row;
+    }
+}
+@media (min-width:1024px){
+    .joe{
+        padding: 0 10px;
+        margin-bottom:20px ;
+    }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+    .joe{
+        padding: 0 10px;
+        margin-bottom: 20px;
+    }
+}
+.Building{
+    .joe_biden{
+        margin: 0;
+        a{
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: 600;
+            &:hover{
+                color: var(--color);
+               }
+        }
+    }
+}
+.brex{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: #f5f5f5;
+    @media (min-width){
+        background-color: transparent;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        width: 50%;
+    }
+}
+.brex-it{
+    @media (min-width: 601px) and (max-width: 1024px) {
+       margin: 0 10px 20px 10px;
+    }
+}
+.brexit{
+    display: flex;
+    flex-direction: column;
+    @media (min-width:1024px){
+        flex-direction: column;
+    }
+    @media (min-width: 601px) and (max-width: 1024px) {
+        flex-direction: row;
+    }
+}
+.image7{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p7-263x175.jpg");
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 119px;
+        width: 178px;
+    }
+}
+.para{
+    padding-left: 20px;
+    @media (min-width:1024px){
+        background-color: #f5f5f5;
+    }
+}
+.para_heading{
+    margin: 0;
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+        font-weight: 600;
+        &:hover{
+            color: var(--color);
+           }
+    }
+}
+.image8{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p8-263x175.jpg");
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    background-color: transparent;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 153px;
+    }
+}
+.image9{
+    background-image: url("https://soledaddemo.pencidesign.net/soledad-daily-news/wp-content/uploads/sites/17/2021/12/p9-263x175.jpg");
+    width: 100%;
+    height: 70px;
+    display: inline-block;
+    vertical-align: top;
+    background-position: center center;
+    background-size: cover;
+    @media (min-width:1024px){
+        height: 120px;
+        width: 178px;
+    }
+}
+.line{
+    padding: 15px 0;
+    border-top: 1px solid #dedede;
+    @media (min-width:1024px){
+        width: 1200px;
+        margin: 0 auto;
+        justify-content: center;
+        display: flex;
+    }
+}
+.arrow{
+    margin:10px 0 30px 0;
+    padding-left:15px ;
+    @media (min-width:1024px){
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .inner_arrow{
+        margin: 0;
+        span{
+            span{
+                font-size: 24px;
+                font-weight: 600;
+                @media (min-width: 601px) and (max-width: 1024px) {
+                    font-size: 30px;
+                }
+                @media (min-width:1024px){
+                    font-size: 30px;
+                }
+            }
+            a{
+                text-decoration: none;
+                font-family: "Libre Franklin", Sans-serif;
+                font-size: 12px;
+                font-weight: 700;
+                color: var(--color);
+                margin-left: 20px;
+                .fa-arrow-right{
+                    margin-left: 5px;
+                    font-size: 12px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}
